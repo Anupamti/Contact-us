@@ -4,13 +4,12 @@ import { Container } from '../GlobalStyles'
 
 export const ContactUsPage = styled.div`
     width:100%;
-    height:500px;
+    height:100vh;
 
      @media screen and (max-width:768px){
             height:700px;
 
     }
-
 `;
 
 export const ContactPageContainer = styled(Container)`
@@ -28,7 +27,7 @@ export const ContactPageContainer = styled(Container)`
 `;
 
 export const ContactPageSubContainer = styled.div`
-    height:400px;
+    height:600px;
     width:100%;
     display:flex;
     margin:30px;
@@ -148,6 +147,7 @@ export const FormFirstName = styled.input`
     border:none;
     outline:none;
     width:100%;
+    padding:10px;
 
 `;
 
@@ -176,8 +176,8 @@ export const InputNumberContainer = styled(InputContainer)`
 `;
 
 export const Button = styled.div`
-    height:20px;
-    width:60px;
+    height:30px;
+    width:80px;
     border-radius:30px;
     background-color:black;
     color:white;

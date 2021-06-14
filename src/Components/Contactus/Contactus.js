@@ -35,10 +35,7 @@ const FormDropDown = styled.select`
     background-color:white;
     font-weight:500;
     font-size:16px;
-    
-
   }
-    
   }`;
 function ContactUs() {
 
@@ -80,7 +77,6 @@ function ContactUs() {
                                 State === 'Brand' &&
                                 <>
                                     <FormName>
-
                                         <InputContainer>
                                             <FormFirstName placeholder={"First Name"} />
                                         </InputContainer>
@@ -95,7 +91,6 @@ function ContactUs() {
                                     <InputNumberContainer>
                                         <FormNumber placeholder={"Email"} />
                                     </InputNumberContainer>
-
 
                                     <InputNumberContainer>
                                         <FormNumber placeholder={"Website"} />
